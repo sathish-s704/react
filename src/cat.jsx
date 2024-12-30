@@ -4,6 +4,7 @@ function Cat() {
   const [name, setName] = useState("Sathish");
   return (
     <div>
+      <form>
     <fieldset>
       <legend>CountName</legend>
       <h1>Count: {count}</h1><br />
@@ -13,8 +14,9 @@ function Cat() {
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} /><br />
       <h1>Name: {name}</h1><br />
     </fieldset>
+    </form>
   </div>
-  
+
   );
 }
 export default Cat;

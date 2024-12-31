@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("D:\react\react\public\images\sky.jpg");
+  background-color:aquamarine;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,4 +85,19 @@ main {
   outline: none; /* Remove default outline */
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green glow */
 }
+
+
+#stomach{
+  background-color: black;
+  width: auto;
+
+}
+#mybutton{
+  background-color: rgb(232, 123, 125);
+  width: 50%;
+}
+
+
+
+
 

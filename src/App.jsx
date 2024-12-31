@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { createContext} from 'react'
 import './App.css'
 import Cat from './cat'
 import UseRef from './useref'
@@ -6,20 +6,22 @@ import UseState from './usestate'
 import Useeffect from './useeffect'
 import Usestate from './usestate'
 import Hen from './componenets/hen'
+import Forms from './Forms'
+import Stomach from './componenets/stomach'
 
-
-
+export let nameContext=createContext();
 
 
 function App() {
 
 
   return (
-    <> 
 
-  <Hen need="water"/>
+   <nameContext.Provider value="water"> 
+   <Hen />
+  </nameContext.Provider>
    
-    </>
+  
   )
 }
 

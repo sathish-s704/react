@@ -4,6 +4,9 @@ import Home from './componenets/home'
 import AboutUs from './componenets/aboutus'
 import Contactus from './componenets/contactus'
 import {Link,Route, BrowserRouter as Router, Routes}  from 'react-router-dom';
+import Sample from './sample'
+import Forms from './Forms'
+import Cat from './cat'
 
 
 function Sathish() {
@@ -29,13 +32,15 @@ function Sathish() {
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/contactus" element={<Contactus />} />
+        
           </Routes>
         </div>
       </Router>
+
       <footer style={{ backgroundColor: 'black',color:'white',textAlign:'center', padding: '10px 0',position:'fixed',bottom:'0',width:'100%' }}> &copy; 2024 Sathish . All Rights Reserved.</footer>
     </>
   );
 }
 
 
-export default Sathish;
+export default Sathish; 

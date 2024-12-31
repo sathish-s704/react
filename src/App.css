@@ -3,9 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #b5f4fb;
+  background-image: url("D:\react\react\public\images\sky.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  
 }
 header {
   width: 100%;
@@ -27,3 +29,60 @@ main {
   padding: 2rem;
   background-color: #f4f4f4;
 }
+.cat {
+  background-color: yellow;
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.cat h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cat button {
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cat button:hover {
+  background-color:blue; 
+}
+
+.cat label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+.cat input[type="text"] {
+  width: calc(100% - 20px); /* Adjust width to fit padding */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.cat input[type="text"]:focus {
+  border-color: #4CAF50;
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green glow */
+}
+

@@ -1,0 +1,77 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+
+}
+#userfield{
+    text-align: center;
+}
+.container {
+    padding: 20px;
+    background-image: url("D:\react\react\frontend\src\assets\c.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+h2 .btn-primary {
+    font-size: 1rem;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.btn-warning {
+    margin-right: 5px;
+}
+#userfieldset {
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 500;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+button.btn-primary {
+    padding: 10px 20px;
+    font-size: 1rem;
+}

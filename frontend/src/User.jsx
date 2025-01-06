@@ -22,7 +22,7 @@ const User = () => {
     const deleteUser = (id) => {
         const isConfirmed = window.confirm("Are you sure you want to delete this user?");
         if (isConfirmed) {
-            axios.delete(`hhttps://backenddemo-1-wrok.onrender.com/api/user/delete/${id}`)
+            axios.delete(`https://backenddemo-1-wrok.onrender.com/api/user/delete/${id}`)
                 .then(() => {
                     alert("User deleted successfully!");
                     fetchUsers();
